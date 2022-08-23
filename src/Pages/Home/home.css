@@ -1,0 +1,108 @@
+.container_home {
+    background-color: rgb(41, 65, 171);
+    background-image: url(https://www-growth.scdn.co/static/home/bursts-mobile.svg);
+    background-position: center top 40%;
+    background-repeat: no-repeat;
+    background-size: 215%;
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.text {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 60px;
+}
+
+.text h2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #1ED760;
+    text-align: center;
+    font-size: 96px;
+    font-weight: 900;
+    line-height: 96px;
+    padding-bottom: 40px;
+    width: 800px;
+}
+
+.text p {
+    color: #1ED760;
+}
+
+.text button {
+    background-color: #1ED760;
+    border: 0;
+    border-radius: 30px;
+    color: #2941AB;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    line-height: 20px;
+    text-align: center;
+    width: 270px;
+    height: 48px;
+    margin-top: 40px;
+    transition: 0.2s;
+}
+
+.text button:hover {
+    background-color: #3bec79;
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+
+
+@media (min-width: 480px) {
+    .container_home {
+        background-image: url(https://www-growth.scdn.co/static/home/bursts-tablet.svg);
+        background-size: 153%;
+        background-position: right 40% center;
+        -webkit-box-pack: center;
+        justify-content: center;
+    }
+
+    .text h2 {
+        width: 754px;
+        font-size: 104px;
+        line-height: 104px;
+        padding-bottom: 24px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container_home {
+        background-image: url(https://www-growth.scdn.co/static/home/bursts.svg);
+        background-size: 175%;
+        background-position: 46% 4%;
+        -webkit-box-pack: center;
+        justify-content: center;
+        min-height: 846px;
+    }
+}
+
+
+@media screen and (max-width: 425px) {
+    .text h2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        color: #1ED760;
+        text-align: center;
+        font-size: 48px;
+        font-weight: 900;
+        line-height: 48px;
+        padding-bottom: 40px;
+        width: 240px;
+    }
+}
